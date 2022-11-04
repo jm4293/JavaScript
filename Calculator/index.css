@@ -1,0 +1,28 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+.calculator {
+    width: 500px;
+    text-align: right;
+}
+
+.main {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.display {
+    border: 1px solid black;
+    width: 100%;
+    height: 20px;
+}
+
+.header {
+
+}
+
+#enter {
+
+}

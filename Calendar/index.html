@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>calendar</title>
+
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div class="calendar">
+            <div class="header">
+                <button id="btn_month_pre" onclick="prevMonth_btn()">이전</button>
+                <div id="header_year"></div>
+                <div id="header_month"></div>
+                <button id="btn_today" onclick="today_btn()">오늘</button>
+                <button id="btn_month_next" onclick="nextMonth_btn()">다음</button>
+            </div>
+
+            <div class="main">
+                <div class="days_name">
+                    <div class="day_name">일</div>
+                    <div class="day_name">월</div>
+                    <div class="day_name">화</div>
+                    <div class="day_name">수</div>
+                    <div class="day_name">목</div>
+                    <div class="day_name">금</div>
+                    <div class="day_name">토</div>
+                </div>
+
+                <div class="dates"></div>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

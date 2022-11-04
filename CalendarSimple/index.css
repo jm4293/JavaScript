@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /*border: 1px solid red;*/
+}
+
+.calendar {
+    border: 1px solid black;
+}
+
+.upper {
+    display: flex;
+    background-color: black;
+    color: white;
+    /*border: 1px solid green;*/
+}
+
+.lower {
+    /*border: 1px solid magenta;*/
+}
+
+#month_ko {
+    padding-left: 25px;
+    /*border: 1px solid mediumorchid;*/
+}
+
+#day {
+    font-size: 80px;
+    /*border: 1px solid green;*/
+}
+
+#year {
+    text-align: center;
+    border-top: 1px solid black;
+}

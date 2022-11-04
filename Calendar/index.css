@@ -1,0 +1,48 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+.calendar {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_year {
+    font-size: 40px;
+}
+
+#header_month {
+    font-size: 50px;
+}
+
+.days_name {
+    border-bottom: 1px solid black;
+    display: flex;
+}
+.day_name {
+    width: calc(100%/7);
+    text-align: center;
+}
+
+.dates {
+    display: flex;
+    height: 300px;
+    flex-flow: row wrap;
+}
+
+.date {
+    width: calc(100%/7);
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.today {
+    color: blue;
+}
