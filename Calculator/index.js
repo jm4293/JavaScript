@@ -4,7 +4,6 @@ let display_content = '';
 let result = 0;
 let operation = '';
 
-q
 buttons.forEach( (buttons) => {
     buttons.addEventListener('click', (click_content) => {
         switch (buttons.id) {
